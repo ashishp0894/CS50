@@ -1,0 +1,40 @@
+#Top-bar {
+    position: absolute;
+    right:0px;
+    padding: 5px;
+}
+#Google_logo, #Input_box,#Search_button{
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+}
+
+#Google_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 400px;
+    height: calc(100% - 560px);
+}
+
+#actualbox{
+    font-family: arial,sans-serif;
+    width: 50%;
+    border-radius: 20px;
+    padding: 5px 25px;
+    height: 23px;
+    border-color: #f1f2f4;
+    display:flex;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+
+
+#submit-box {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
